@@ -92,7 +92,7 @@ nav a:hover {
 
 .banner-1 p {
 	font-family: 'Open Sans', serif;
-	font-size: 0.6em;
+	font-size: 0.7em;
 	color: #9e6100;
 	margin-bottom: 0.2em;
 }
@@ -104,5 +104,41 @@ nav a:hover {
 h2 {
 	font-family: 'Cinzel', serif;
 	font-size: 1em;
+	color: #000;
+	text-align: center;
+}
+
+.giza {
+	width: 90%;
 	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	position: center;
+}
+
+h3 {
+	font-family: 'Open Sans', serif;
+	font-size: 0.7em;
+	margin-left: 1em;
+	text-transform: uppercase;
+	color: #9e6100;
+}
+
+.float-left {
+	font-size: 0.6em;
+	float: left;
+}
+
+.float-right {
+	font-size: 0.6em;
+	float: right;
+}
+
+.clear-both {
+	font-size: 0.6em;
+	clear: both;
+}
+
+.learn-more {
+	font-size: 0.6em;
 }
