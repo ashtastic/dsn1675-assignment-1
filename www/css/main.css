@@ -6,10 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-text-size-adjust: 100%;
-
-@viewport { width: device-width; scale: 1; }
-
-.h1 {
-	font: font-family: 'Cinzel', serif;
+h1 {
+	font-family: 'Cinzel', serif;
+	text-align: center;
 }
