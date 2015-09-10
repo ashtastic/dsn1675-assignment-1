@@ -10,9 +10,16 @@ h1 {
 	font-family: 'Cinzel', serif;
 	text-align: center;
 	color: #000;
-	font-size: 1.1em;
+	font-size: 0.75em;
 	margin: 1em;
-	margin-bottom: 0.6em;
+	margin-bottom: 0.7em;
+	padding: 0.5em;
+}
+
+.logo {
+	float: left;
+	width: 1.5em;
+	margin-left: 1em;
 }
 
 body {
@@ -87,9 +94,15 @@ nav a:hover {
 	font-family: 'Open Sans', serif;
 	font-size: 0.6em;
 	color: #9e6100;
+	margin-bottom: 0.2em;
 }
 
 .wonders {
 	width: 100%;
 }
 
+h2 {
+	font-family: 'Cinzel', serif;
+	font-size: 1em;
+	margin-left: 1em;
+}
