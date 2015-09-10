@@ -9,12 +9,87 @@ html {
 h1 {
 	font-family: 'Cinzel', serif;
 	text-align: center;
+	color: #000;
+	font-size: 1.1em;
+	margin: 1em;
+	margin-bottom: 0.6em;
 }
 
 body {
 	font-family: 'Open Sans', serif;
+	margin: 0;
+	color: #231601;
+}
+
+nav li {
+	float: left;
+	margin: 0;
+	width: 25%;
+	text-align: center;
+}
+
+ol li {
+	font-size: 25%;
+	text-decoration: none;
+	text-align: center;
+}
+
+.seven-wonders a {
+	padding-right: 0.7em;
+	padding-left: 0.7em;
 }
 
 nav {
-	text-decoration: none;
+	float: left;
+	overflow: hidden;
+	width: 100%;
 }
+
+nav ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	text-decoration: none;
+	background-color: #231601;
+	display: block;
+	padding: 1em;
+}
+
+nav a:hover {
+	color: #9e6100;
+}
+
+.banner-1 {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	background: #231601;
+	text-align: center;
+	color: white;
+	opacity: 0.9;
+	padding: 0.5em;
+	margin-top: 19.5%;
+}
+
+.banner-1 strong {
+	font-family: 'Cinzel', serif;
+	font-size: 1em;
+}
+
+.banner-1 p {
+	font-family: 'Open Sans', serif;
+	font-size: 0.6em;
+	color: #9e6100;
+}
+
+.wonders {
+	width: 100%;
+}
+
