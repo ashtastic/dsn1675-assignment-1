@@ -107,13 +107,14 @@ h2 {
 	color: #231601;
 	text-align: center;
 	margin-top: 1em;
+	margin-bottom: 0;
 }
 
 .wonders-info {
 	width: 90%;
 	margin-left: 1em;
 	margin-right: 1em;
-	margin-top: 1em;
+	margin-top: 2em;
 	position: center;
 	display: inline-block;
 }
@@ -129,7 +130,15 @@ h3 {
 
 .learn-more {
 	font-size: 0.8em;
+	text-decoration: none;
+	color: #9e6100;
+	margin-left: 1em;
 }
+
+.learn-more:hover {
+	color: #413f0c;
+}
+
 
 dt, dd {
 	font-size: 0.8em;
@@ -148,6 +157,7 @@ dd {
 
 dl{
 	margin-top: 0;
+	margin-bottom: 0.5em;
 }
 
 
