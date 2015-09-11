@@ -8,18 +8,34 @@ html {
 
 h1 {
 	font-family: 'Cinzel', serif;
-	text-align: center;
 	color: #231601;
 	font-size: 0.75em;
-	margin: 1em;
-	margin-bottom: 0.7em;
-	padding: 0.5em;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	display: inline-block;
 }
 
 .logo {
 	float: left;
 	width: 1.5em;
 	margin-left: 1em;
+	margin-top: 0.8em;
+	margin-right: 2.7em;
+	display: inline-block;
+}
+
+.button {
+	float: right;
+	text-decoration: none;
+	color: #9e6100;
+	font-size: 0.8em;
+	margin-right: 1em;
+	margin-top: 0.9em;
+	display: inline-block;
+}
+
+.button:hover {
+	color: #413f0c;
 }
 
 body {
@@ -125,7 +141,8 @@ h3 {
 	margin-left: 1em;
 	text-transform: uppercase;
 	color: #9e6100;
-	margin-bottom: 0;
+	margin-bottom: 0em;
+	margin-top: 0.5em;
 }
 
 .learn-more {
@@ -160,5 +177,19 @@ dl{
 	margin-bottom: 0.5em;
 }
 
+.buy-h2 {
+	background-color: #231601;
+	padding: 0.5em;
+	margin-top: 2em;
+	color: white;
+}
 
+.buy {
+	background-color: #9e6100;
+}
+
+.buy p {
+	margin: 0;
+	padding: 0.5em;
+}
 
