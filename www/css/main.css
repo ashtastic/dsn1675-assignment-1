@@ -184,12 +184,34 @@ dl{
 	color: white;
 }
 
-.buy {
-	background-color: #9e6100;
-}
-
 .buy p {
 	margin: 0;
 	padding: 0.5em;
+	color: #231601;
+	font-size: 0.8em;
+	text-align: center;
 }
 
+.buy li {
+	display: inline-block;
+	text-align: center;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 0;
+	margin-left: 1em;
+}
+
+.buy a {
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	color: #413f0c;
+}
+
+.buy a:hover {
+	color: #9e6100;
+}
+
+.price {
+	font-size: 2em;
+	line-height: 0;
+}
