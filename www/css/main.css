@@ -48,6 +48,7 @@ h1 {
 body {
 	font-family: 'Open Sans', serif;
 	margin: 0;
+	padding: 0;
 	color: #231601;
 }
 
@@ -111,6 +112,7 @@ nav a:hover {
 .banner-1 strong {
 	font-family: 'Cinzel', serif;
 	font-size: 1em;
+	line-height: 1em;
 }
 
 .banner-1 p {
@@ -167,10 +169,22 @@ h3 {
 }
 
 
+.dt-1 {
+display: inline-block;
+}
+
+.dt-2 {
+	display: inline-block;
+}
+
+.dd-2 {
+	display: inline;
+}
+
 dt, dd {
 	font-size: 0.8em;
-	display: inline-block;
 	margin-top: 0;
+	display: inline;
 }
 
 dt {
@@ -237,7 +251,7 @@ dl{
 	background-color: #9e6100;
 }
 
-.playing {
+.playing-now {
 	background-color: #231601;
 	color: white;
 	margin: 0;
@@ -285,11 +299,31 @@ dl{
 	color: #9e6100;
 }
 
+.week-h2 {
+	margin-bottom: 1em;
+	line-height: 1em;
+}
+
+.week li {
+	list-style-type: none;
+	text-align: left;
+	font-size: 0.8em;
+	padding-top: 0.5em;
+	color: #413f0c;
+}
+
+.week {
+	padding: 0;
+	margin-left: 1em;
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+
 footer {
 	padding: 1em;
 	background-color: #231601;
 	color: white;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 footer p {
@@ -302,6 +336,13 @@ footer p {
 }
 
 footer a {
-	text-decoration: none
+	text-decoration: none;
+	color: #9e6100;
 }
 
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 1em;
+}
