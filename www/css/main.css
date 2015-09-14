@@ -136,10 +136,11 @@ h2 {
 }
 
 .wonders-info {
-	width: 90%;
+	width: 100%;
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-top: 2em;
+	clear: both;
 }
 
 h3 {
@@ -152,33 +153,27 @@ h3 {
 	margin-top: 0.5em;
 }
 
-.learn-more {
+.learn-more, .learn-more-bottom {
 	font-size: 0.7em;
 	text-decoration: none;
 	color: white;
 	margin-left: 1em;
+	margin-top: 1em;
 	background-color: #413f0c;
 	padding: 0.5em;
 	opacity: 0.5;
+	float: left;
+	clear: both;
+}
+
+.learn-more-bottom {
+	margin-bottom: 3em;
 }
 
 .learn-more:hover {
 	color: white;
 	background-color: #413f0c;
 	opacity: 10;
-}
-
-
-.dt-1 {
-display: inline-block;
-}
-
-.dt-2 {
-	display: inline-block;
-}
-
-.dd-2 {
-	display: inline;
 }
 
 dt, dd {
@@ -190,10 +185,13 @@ dt, dd {
 dt {
 	margin-left: 1em;
 	color: #413f0c;
+	float: left;
+	clear: left;
 }
 
 dd {
 	margin-left: 0.5em;
+	float: left;
 }
 
 dl{
@@ -203,9 +201,8 @@ dl{
 
 .buy-h2 {
 	padding: 0.5em;
-	padding-top: 1em;
 	padding-bottom: 0;
-	margin-top: 1.5em;
+	margin-top: 0;
 	color: white;
 	text-align: center;
 }
@@ -214,6 +211,8 @@ dl{
 	text-align: center;
 	background-color: #231601;
 	opacity: 0.8;
+	overflow: hidden;
+	clear: both;
 }
 
 .buy p {
