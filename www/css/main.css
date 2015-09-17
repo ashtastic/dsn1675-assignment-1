@@ -6,37 +6,31 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
-	font-family: 'Cinzel', serif;
-	color: #231601;
-	font-size: 0.75em;
-	margin-top: 1.2em;
-	margin-bottom: 1em;
-	display: inline-block;
+body {
+	font-family: 'Open Sans', serif;
+	margin: 0;
+	padding: 0;
+}
+
+.masthead {
+	margin: 1em;
 }
 
 .logo {
 	float: left;
-	width: 1.5em;
-	margin-left: 1em;
-	margin-top: 0.8em;
-	margin-right: 2.7em;
-	display: inline-block;
+	margin-right: 1em;
+	width: 50px;
 }
 
 .button {
-	font-family: 'Cinzel', serif;
 	float: right;
+	padding: 0.2em 0.5em;
+	border-radius: 0.5em;
+	margin-bottom: 1em;
+	margin-top: 0;
 	text-decoration: none;
 	color: white;
-	font-size: 0.7em;
-	margin-right: 1em;
-	margin-top: 1em;
-	display: inline-block;
-	padding-left: 0.4em;
-	padding-right: 0.4em;
-	padding-top: 0.2em;
-	padding-bottom: 0.2em;
+	font-size: 1rem;
 	background-color: #231601;
 }
 
@@ -45,117 +39,127 @@ h1 {
 	background-color: #9e6100;
 }
 
-body {
-	font-family: 'Open Sans', serif;
-	margin: 0;
-	padding: 0;
+.title {
+	float: left;
+	font-family: 'Cinzel', serif;
 	color: #231601;
-}
-
-nav li {
-	float: left;
-	margin: 0;
-	width: 25%;
-	text-align: center;
-}
-
-ol li {
-	font-size: 25%;
-	text-decoration: none;
-	text-align: center;
-}
-
-.seven-wonders a {
-	padding-right: 0.7em;
-	padding-left: 0.7em;
-}
-
-nav {
-	float: left;
-	overflow: hidden;
-	width: 100%;
-}
-
-nav ol {
+	font-size: 1rem;
+	margin-bottom: 1em;
+	margin-top: 0;
 	padding: 0;
-	margin: 0;
+}
+
+.nav {
 	list-style-type: none;
-	overflow: hidden;
-}
-
-nav a {
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	text-decoration: none;
+	margin: 0;
+	margin-top: 1.5em;
+	padding: 0;
 	background-color: #231601;
-	display: block;
-	padding: 1em;
+	clear: both;
 }
 
-nav a:hover {
+.nav a {
+	display: block;
+	padding: .5em 1em;
+	color: #fff;
+	text-decoration: none;
+	clear: both;
+}
+
+.nav a:hover {
 	color: #9e6100;
+}
+
+.nav li {
+	clear: both;
 }
 
 .banner-1 {
-	position: absolute;
+	background-image: url("../images/wonders.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	width: 100%;
 	margin: 0;
-	background: #231601;
 	text-align: center;
 	color: white;
-	opacity: 0.9;
-	padding: 0.5em;
-	margin-top: 19.5%;
+	padding: 3em 0;
 }
 
-.banner-1 strong {
+.banner-p {
+	background: #231601;
+	opacity: 0.8;
+	padding: 1em;
+}
+
+.banner-p strong {
 	font-family: 'Cinzel', serif;
-	font-size: 1em;
+	font-size: 1rem;
 	line-height: 1em;
 }
 
-.banner-1 p {
+.banner-p p {
 	font-family: 'Open Sans', serif;
-	font-size: 0.7em;
+	font-size: 1rem;
 	color: #9e6100;
 	margin-bottom: 0.2em;
-}
-
-.wonders {
-	width: 100%;
+	margin-top: 0;
 }
 
 h2 {
 	font-family: 'Cinzel', serif;
-	font-size: 1.5em;
+	font-size: 1.5rem;
+	line-height: 1em;
 	color: #231601;
 	text-align: center;
-	margin-top: 1em;
 	margin-bottom: 0;
+	margin-top: 1em;
 }
 
 .wonders-info {
 	width: 100%;
-	padding: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+	padding-top: 2em;
 }
 
 h3 {
+	margin: 0 1em;
 	font-family: 'Cinzel', serif;
-	font-size: 0.8em;
-	margin-left: 1em;
-	text-transform: uppercase;
+	font-size: 1rem;
 	color: #9e6100;
-	margin-bottom: 0em;
-	margin-top: 0.5em;
+}
+
+dt, dd {
+	font-size: 1rem;
+	margin-top: 0;
+}
+
+dt {
+	margin-left: 1em;
+	color: #413f0c;
+}
+
+dd {
+	margin-left: 1em;
+	color: #231601;
+}
+
+dl{
+	margin-top: 0;
+	margin-bottom: 0.5em;
 }
 
 .learn-more, .learn-more-bottom {
-	font-size: 0.7em;
+	font-family: 'Cinzel', serif;
+	font-size: 1rem;
 	text-decoration: none;
 	color: white;
-	margin-left: 1em;
-	margin-top: 1em;
+	margin: 0em 1em;
 	background-color: #413f0c;
 	padding: 0.5em;
 	opacity: 0.5;
@@ -164,7 +168,7 @@ h3 {
 }
 
 .learn-more-bottom {
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 }
 
 .learn-more:hover {
@@ -173,53 +177,27 @@ h3 {
 	opacity: 10;
 }
 
-dt, dd {
-	font-size: 0.8em;
-	margin-top: 0;
-	display: inline;
-}
-
-dt {
-	margin-left: 1em;
-	color: #413f0c;
-	float: left;
-	clear: left;
-}
-
-dd {
-	margin-left: 0.5em;
-	float: left;
-}
-
-dl{
-	margin-top: 0;
-	margin-bottom: 0.5em;
-}
-
-.buy-h2 {
-	padding: 0.5em;
-	padding-bottom: 0;
-	margin-top: 1em;
-	color: white;
-	text-align: center;
-	clear: both;
-}
-
 .buy {
+	padding: 1em;
+	padding-top: 0;
+	padding-bottom: 1.5em;
 	text-align: center;
 	background-color: #231601;
 	opacity: 0.8;
 	overflow: hidden;
+}
+
+.buy h2 {
+	margin-bottom: .5em;
+	margin-top: 1.5em;
+	color: white;
 	clear: both;
-	padding-bottom: 1em;
 }
 
 .buy p {
 	margin: 0;
-	padding: 0.5em;
 	color: #9e6100;
 	font-size: 0.8em;
-	text-align: center;
 }
 
 .buy a {
@@ -228,20 +206,9 @@ dl{
 	color: white;
 	background-color: #413f0c;
 	padding: 0.5em;
-}
-
-.left {
-	float: left;
-	margin-left: 1em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-.right {
-	float: right;
-	margin-right: 1em;
-	margin-top: 1em;
-	margin-bottom: 2em;
+	text-align: center;
+	display: block;
+	margin: 1em 0;
 }
 
 .buy a:hover {
@@ -254,46 +221,46 @@ dl{
 	color: white;
 	margin: 0;
 	clear: both;
-	padding: 0.5em;
-}
-
-.atlantis {
-	width: 100%;
+	padding: 1em;
 }
 
 .banner-2 {
-	position: absolute;
-	width: 100%;
+	background-image: url("../images/atlantis.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	margin: 0;
-	background: #231601;
 	text-align: center;
 	color: white;
-	opacity: 0.9;
-	padding: 0.5em;
-	margin-top: 21%;
+	padding: 3em 0;
 }
 
-.banner-2 strong {
+.banner-p strong {
 	font-family: 'Cinzel', serif;
-	font-size: 0.8em;
+	font-size: 1rem;
+	line-height: 1em;
 }
 
-.banner-2 p {
+.banner-p p {
 	font-family: 'Open Sans', serif;
-	font-size: 0.8em;
+	font-size: 1rem;
 	color: #9e6100;
-	margin: 0;
 	margin-bottom: 1em;
+	margin-top: 0;
 }
 
-.banner-2 a {
+.banner-p a {
 	text-decoration: none;
 	color: white;
-	font-size: 0.7em;
+	font-size: 1rem;
+	padding-top: 1em;
 	text-transform: uppercase;
 }
 
-.banner-2 a:hover {
+.banner-p a:hover {
 	color: #9e6100;
 }
 
@@ -305,7 +272,7 @@ dl{
 .week li {
 	list-style-type: none;
 	text-align: left;
-	font-size: 0.8em;
+	font-size: 1rem;
 	padding-top: 0.5em;
 	color: #413f0c;
 }
@@ -321,7 +288,7 @@ footer {
 	padding: 1em;
 	background-color: #231601;
 	color: white;
-	font-size: 0.7em;
+	font-size: 0.8rem;
 }
 
 footer p {
@@ -343,4 +310,36 @@ footer ul {
 	padding: 0;
 	margin: 0;
 	margin-top: 1em;
+}
+
+/**
+@media only screen and (min-width: 20em) {
+
+	dd, dt {
+		display: inline;
+	}
+
+	dt {
+		float: left;
+		clear: left;
+	}
+
+	dd {
+	margin-left: 1em;
+	float: left;
+	}
+
+}
+
+
+@media only screen and (min-width: 31em) {
+
+	.nav {
+		text-align: center;
+	}
+
+	.nav li {
+		display: inline-block;
+	}
+
 }
