@@ -185,6 +185,7 @@ dl{
 	background-color: #231601;
 	opacity: 0.8;
 	overflow: hidden;
+	clear: both;
 }
 
 .buy h2 {
@@ -256,9 +257,9 @@ dl{
 	text-decoration: none;
 	color: white;
 	font-size: 1rem;
-	padding-top: 1em;
+	padding: 1em;
 	text-transform: uppercase;
-}
+	}
 
 .banner-p a:hover {
 	color: #9e6100;
@@ -312,7 +313,7 @@ footer ul {
 	margin-top: 1em;
 }
 
-/**
+
 @media only screen and (min-width: 20em) {
 
 	dd, dt {
@@ -329,6 +330,10 @@ footer ul {
 	float: left;
 	}
 
+	.learn-more {
+		margin-top: 0.5em;
+	}
+
 }
 
 
@@ -340,6 +345,26 @@ footer ul {
 
 	.nav li {
 		display: inline-block;
+		width: 20%;
+		margin: 0;
 	}
+
+.buy p {
+	clear: both;
+}
+
+	.buy a {
+		display: inline-block;
+		width: 40%;
+		clear: both;
+	}
+
+	.buy li {
+		display: inline-block;
+	}
+
+.buy h2 {
+	margin-top: 1.5em;
+}
 
 }
