@@ -337,7 +337,7 @@ footer ul {
 }
 
 
-@media only screen and (min-width: 39em) {
+@media only screen and (min-width: 30em) {
 
 	.nav {
 		text-align: center;
@@ -349,8 +349,8 @@ footer ul {
 		margin: 0;
 	}
 
-.buy p {
-	clear: both;
+	.buy p {
+		clear: both;
 }
 
 	.buy a {
@@ -363,9 +363,9 @@ footer ul {
 		display: inline-block;
 	}
 
-.buy h2 {
-	margin-top: 1.5em;
-}
+	.buy h2 {
+		margin-top: 1.5em;
+	}
 
 }
 
