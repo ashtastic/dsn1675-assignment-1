@@ -91,7 +91,7 @@ body {
 
 .banner-p {
 	background: #231601;
-	opacity: 0.8;
+	opacity: 0.9;
 	padding: 1em;
 }
 
@@ -217,7 +217,7 @@ dl{
 	background-color: #9e6100;
 }
 
-.playing-now {
+.now-playing {
 	background-color: #231601;
 	color: white;
 	margin: 0;
@@ -286,7 +286,7 @@ dl{
 }
 
 footer {
-	padding: 1em;
+	padding: 1.5em;
 	background-color: #231601;
 	color: white;
 	font-size: 0.8rem;
@@ -337,7 +337,7 @@ footer ul {
 }
 
 
-@media only screen and (min-width: 31em) {
+@media only screen and (min-width: 39em) {
 
 	.nav {
 		text-align: center;
@@ -366,5 +366,41 @@ footer ul {
 .buy h2 {
 	margin-top: 1.5em;
 }
+
+}
+
+@media only screen and (min-width: 50em) {
+
+	header {
+		float: left;
+		margin-left: 1em;
+		margin-top: 0;
+		width: 33.333%;
+		position: fixed;
+		margin
+	}
+
+	.button: {
+		padding: 0 4em;
+	}
+
+	.nav li {
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+
+	main, .seven-wonders {
+		margin-left: 35%;
+	}
+
+	.buy, .playing-now {
+		margin: 0 1em;
+	}
+
+	footer {
+		position: relative;
+		text-align: left;
+	}
 
 }
