@@ -78,9 +78,6 @@ body {
 	background-image: url("../images/wonders.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	width: 100%;
 	margin: 0;
@@ -229,9 +226,6 @@ dl{
 	background-image: url("../images/atlantis.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	margin: 0;
 	text-align: center;
